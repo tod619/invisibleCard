@@ -33,13 +33,30 @@ font-family: 'Source Code Pro', monospace; */
   box-shadow: 0 0 30px #fff;
 }
 
+/* Card */
 .card {
   height: 100%;
   width: 100%;
-  background-color: #fff;
+  background: linear-gradient(
+    190deg,
+    rgba(21, 199, 30, 0.8) 50%,
+    rgba(233, 67, 67, 0.8) 0
+  );
   border-radius: inherit;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+/* Card Image */
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 15px;
+  border: 2px solid #fff;
+  padding: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }

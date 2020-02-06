@@ -112,3 +112,15 @@ font-family: 'Source Code Pro', monospace; */
   width: 50%;
   justify-content: space-around;
 }
+
+/* Link Items */
+.card-icon-link {
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}

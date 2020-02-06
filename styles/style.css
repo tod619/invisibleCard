@@ -104,3 +104,11 @@ font-family: 'Source Code Pro', monospace; */
   bottom: -10%;
   margin-left: 10px;
 }
+
+/* Styling the ul and social media icons */
+.card-icons {
+  list-style: none;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
